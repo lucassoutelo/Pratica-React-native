@@ -11,7 +11,7 @@ const InputT= () => {
       style={styles.input}
         onChangeText={onChangeNumber}
         value = {number}
-        placeholder="Placeholder"
+        placeholder="x"
         />
     </SafeAreaView>
   )
