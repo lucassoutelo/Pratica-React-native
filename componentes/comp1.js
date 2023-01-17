@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {View, Text, StyleSheet} from 'react-native';
 
-function  Comp1(props){
+const Comp1 = (props) =>{
   let cor = props.cor;
     return(
       <View>

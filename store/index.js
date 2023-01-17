@@ -1,7 +1,8 @@
-import {configureStore} from 'redux'
+import {configureStore} from '@reduxjs/toolkit'
 
-function reducer(state = [], action){
-  return state
-}
 
-export default configureStore(reducer)
+export default configureStore({
+  reducer:{
+    
+  }
+})

@@ -2,7 +2,7 @@ import React ,{useState} from "react"
 
 import {TextInput, StyleSheet, SafeAreaView} from 'react-native'
 
-const InputT= () => {
+const InputT = () => {
   const [text, onChangeText] = React.useState("Placeholder");
   const [number, onChangeNumber] = React.useState(null);
   return(
